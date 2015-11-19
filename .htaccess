@@ -1,0 +1,4 @@
+ErrorDocument 404 /error-404.php
+RewriteEngine On
+RewriteRule ^run/([^/]*)/([^/]*)$ run.php?u=$1&p=$2 [L]
+RewriteRule ^start start.php [L]
